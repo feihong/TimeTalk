@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wm-mR-GHF">
-                                <rect key="frame" x="280" y="119" width="40" height="34"/>
+                                <rect key="frame" x="280" y="466" width="40" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
@@ -34,7 +34,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0Wm-mR-GHF" firstAttribute="top" secondItem="43v-ZR-CnH" secondAttribute="bottom" constant="20" id="bgz-Bb-E2W"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Wm-mR-GHF" secondAttribute="bottom" constant="100" id="Vad-nX-ACz"/>
                             <constraint firstItem="43v-ZR-CnH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="c5B-4U-Hyd"/>
                             <constraint firstItem="0Wm-mR-GHF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dDt-YO-hi5"/>
                             <constraint firstItem="43v-ZR-CnH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l89-AW-wHl"/>
