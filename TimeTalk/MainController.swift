@@ -16,6 +16,9 @@ class MainController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Don't allow automatic screen lock to occur while this app is active.
+        UIApplication.sharedApplication().idleTimerDisabled = true
+        
         updateTimeLabel()
         
         timer = CancelableTimer(once: false, handler: updateTimeLabel)
